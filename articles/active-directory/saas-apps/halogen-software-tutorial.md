@@ -132,7 +132,7 @@ In this section, you'll enable B.Simon to use Azure single sign-on by granting a
 
     a. As **Unique Identifier**, select **NameID**.
 
-    b. As **Unique Identifier Maps To**, select **Username**.
+    b. As **Unique Identifier Maps To**, select **Username**, **Email Address**, or **Employee ID**. This is the field that needs to match with the Azure primary attribute.
   
     c. To upload your downloaded metadata file, click **Browse** to select the file, and then **Upload File**.
 
